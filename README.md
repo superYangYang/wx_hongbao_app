@@ -2,7 +2,8 @@
 
 一个基于 AI 技术的红包封面生成器，使用智谱清言模型将文本描述转换为精美的红包封面图片。
 
-效果展示
+## 效果展示
+
 ![img.png](xiaoguo/img.png)
 ![img_1.png](xiaoguo/img_1.png)
 
