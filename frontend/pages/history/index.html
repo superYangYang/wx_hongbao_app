@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>历史记录 - AI红包封面生成器</title>
+    <meta name="description" content="查看您使用AI技术生成的红包封面历史记录">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/history.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/pages/generate/">生成封面</a></li>
+                    <li><a href="/pages/history/" class="active">历史记录</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="history-page">
+        <section class="history-header">
+            <h1>生成历史</h1>
+            <p class="subtitle">这里保存了您生成的所有红包封面</p>
+        </section>
+
+        <section class="history-content">
+            <div class="filters">
+                <select id="sortFilter">
+                    <option value="newest">最新优先</option>
+                    <option value="oldest">最早优先</option>
+                </select>
+            </div>
+            
+            <div class="history-grid" id="historyGrid">
+                <!-- 历史记录将通过JavaScript动态加载 -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AI红包封面生成器. All rights reserved.</p>
+    </footer>
+
+    <script src="/js/history.js"></script>
+</body>
+</html> 

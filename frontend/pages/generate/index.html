@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生成红包封面 - AI红包封面生成器</title>
+    <meta name="description" content="使用AI技术生成独特的新年红包封面">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/generate.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <nav>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="/">首页</a></li>
+                        <li><a href="/generate" class="active">生成封面</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <main class="generate-page">
+            <div class="generate-container">
+                <div class="input-section">
+                    <h2>生成红包封面</h2>
+                    <div class="form-group">
+                        <label for="prompt">描述你想要的红包封面</label>
+                        <textarea id="prompt" placeholder="例如：一个可爱的卡通龙，红色背景，新年氛围..."></textarea>
+                    </div>
+                    <button id="generateBtn" class="generate-btn">开始生成</button>
+                </div>
+
+                <div class="preview-section">
+                    <div id="imagePreview" class="image-preview">
+                        <div class="placeholder">
+                            <p>生成的图片将在这里显示</p>
+                        </div>
+                    </div>
+                    <div id="downloadSection" class="download-section">
+                        <button id="downloadBtn" class="download-btn">下载图片</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 AI红包封面生成器. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="/js/generate.js"></script>
+</body>
+</html> 
